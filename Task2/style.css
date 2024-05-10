@@ -48,9 +48,7 @@ body {
 .task-status-item {
   margin-bottom: 20px;
 }
-/* styles.css */
 
-/* Container styles */
 .container {
   max-width: 450px;
   margin: 50px auto; 
@@ -97,28 +95,21 @@ button {
 button:hover {
   background-color: #0b7a52;
 }
-
-/* Task List styles */
 ul {
   list-style-type: none;
   padding: 0;
 }
-
 li {
   margin-bottom: 15px; 
 }
-
 .completed {
   text-decoration: line-through;
   color: #888;
 }
-
-
 @media screen and (max-width: 768px) {
   .navbar {
     width: 0;
   }
- 
   .task-status-container {
     width: 100%;
     padding: 10px;
