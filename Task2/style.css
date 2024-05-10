@@ -2,6 +2,9 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
+  background-image: url(https://plus.unsplash.com/premium_photo-1699025727195-735806727893?q=80&w=1971&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .navbar {
   background-color: #333;
@@ -36,7 +39,7 @@ body {
   right: 0;
   width: 300px;
   height: 100%;
-  background-color: #000;
+  background-color: #333;
   color: #fff;
   padding: 20px;
   box-sizing: border-box;
@@ -49,14 +52,16 @@ body {
 
 /* Container styles */
 .container {
-  max-width: 500px;
+  max-width: 450px;
   margin: 50px auto; /* Center the container vertically and horizontally */
   padding: 20px;
   margin-top: 10%;
-  margin-right: 40%;
+  margin-right: 42%;
   text-align: center;
-  background-color: #fff;
-  border-radius: 10px;
+background-image: url(https://plus.unsplash.com/premium_photo-1713009132815-d4e2c1b00001?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);  background-color: #fff;
+background-repeat: no-repeat;
+background-size: cover;  
+border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
