@@ -12,9 +12,9 @@ function addTask() {
   const taskStatusItem = document.createElement('div');
   taskStatusItem.classList.add('task-status-item');
   taskStatusItem.innerHTML = `
-    <p>Title: ${taskInput}</p>
-    <p>Due Date: ${dueDate}</p>
-    <p>Priority: ${priority}</p>
+    <p>Title    : ${taskInput}</p>
+    <p>Due Date : ${dueDate}</p>
+    <p>Priority : ${priority}</p>
     <button onclick="completeTask(this)">Complete</button>
     <button onclick="deleteTask(this)">Delete</button>
   `;
