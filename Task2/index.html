@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TuToDO</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+<div class="navbar" id="myNavbar">
+  <a href="#" class="active">Home</a>
+  <a href="#">About</a>
+</div>
+
+<div class="main-content">
+  <div class="container">
+    <h1>TO-DO LIST</h1>
+    <input type="text" id="taskInput" placeholder="Enter task title">
+    <input type="date" id="dueDate">
+    <select id="priority">
+      <option value="high">High</option>
+      <option value="medium">Medium</option>
+      <option value="low">Low</option>
+    </select>
+    <button onclick="addTask()">Add Task</button>
+    <ul id="taskList"></ul>
+  </div>
+</div>
+
+<div class="task-status-container" id="taskStatusContainer">
+  <h2>Task Status</h2>
+</div>
+<script src="main.js"></script>
+</body>
+</html>
