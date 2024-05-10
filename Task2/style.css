@@ -2,7 +2,7 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background-image:url(https://plus.unsplash.com/premium_photo-1699025727195-735806727893?dpr=1&w=306&auto=format&fit=crop&q=60&crop=entropy&cs=tinysrgb&fm=jpg&ixid=M3wxMjA3fDB8MXxzZWFyY2h8MTF8fG1pbGQlMjB3aGl0ZSUyMGJhY2tncm91bmR8ZW58MHwwfHx8MTcxNTM3MTE1N3wx&ixlib=rb-4.0.3);
+  background-image: url(https://plus.unsplash.com/premium_photo-1699025727195-735806727893?q=80&w=1971&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -11,7 +11,7 @@ body {
   overflow: hidden;
   position: fixed;
   top: 0;
-  width: 200px;
+  width: 200px; 
   height: 100%; 
   transition: width 0.3s;
   z-index: 1000;
@@ -30,7 +30,7 @@ body {
   background-color: #04AA6D;
 }
 .main-content {
-  margin-left: 200px;
+  margin-left: 200px; 
   padding: 20px;
 }
 .task-status-container {
@@ -43,7 +43,7 @@ body {
   color: #fff;
   padding: 20px;
   box-sizing: border-box;
-  overflow-y: auto; 
+  overflow-y: auto;
 }
 .task-status-item {
   margin-bottom: 20px;
@@ -51,12 +51,12 @@ body {
 
 .container {
   max-width: 450px;
-  margin: 50px auto; 
+  margin: 50px auto;
   padding: 20px;
   margin-top: 10%;
   margin-right: 42%;
   text-align: center;
-background-image:url(https://plus.unsplash.com/premium_photo-1674747086351-1dda4a14e2a6?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fG1pbGQlMjB3aGl0ZSUyMGJhY2tncm91bmR8ZW58MHx8MHx8fDE%3D);
+background-image: url(https://plus.unsplash.com/premium_photo-1713009132815-d4e2c1b00001?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);  background-color: #fff;
 background-repeat: no-repeat;
 background-size: cover;  
 border-radius: 10px;
@@ -82,7 +82,7 @@ input[type="date"]:focus,
 select:focus,
 button:focus {
   outline: none;
-  border-color: #04AA6D;
+  border-color: #04AA6D; 
 }
 
 button {
@@ -93,23 +93,28 @@ button {
 }
 
 button:hover {
-  background-color: #0b7a52;
+  background-color: #0b7a52; 
 }
+
 ul {
   list-style-type: none;
   padding: 0;
 }
+
 li {
   margin-bottom: 15px; 
 }
+
 .completed {
   text-decoration: line-through;
-  color: #888;
+  color: #878686;
 }
+
 @media screen and (max-width: 768px) {
   .navbar {
     width: 0;
   }
+ 
   .task-status-container {
     width: 100%;
     padding: 10px;
