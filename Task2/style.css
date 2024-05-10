@@ -11,8 +11,8 @@ body {
   overflow: hidden;
   position: fixed;
   top: 0;
-  width: 200px; /* Set width for the left side navigation bar */
-  height: 100%; /* Make the navbar full height */
+  width: 200px;
+  height: 100%; 
   transition: width 0.3s;
   z-index: 1000;
 }
@@ -30,7 +30,7 @@ body {
   background-color: #04AA6D;
 }
 .main-content {
-  margin-left: 200px; /* Adjust margin to account for the width of the navbar */
+  margin-left: 200px;
   padding: 20px;
 }
 .task-status-container {
@@ -43,7 +43,7 @@ body {
   color: #fff;
   padding: 20px;
   box-sizing: border-box;
-  overflow-y: auto; /* Enable scrolling if content exceeds container height */
+  overflow-y: auto; 
 }
 .task-status-item {
   margin-bottom: 20px;
@@ -53,19 +53,19 @@ body {
 /* Container styles */
 .container {
   max-width: 450px;
-  margin: 50px auto; /* Center the container vertically and horizontally */
+  margin: 50px auto; 
   padding: 20px;
   margin-top: 10%;
   margin-right: 42%;
   text-align: center;
-background-image: url(https://plus.unsplash.com/premium_photo-1713009132815-d4e2c1b00001?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);  background-color: #fff;
+background-image:main.avif;
 background-repeat: no-repeat;
 background-size: cover;  
 border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-/* Input and Button styles */
+
 input[type="text"],
 input[type="date"],
 select,
@@ -84,7 +84,7 @@ input[type="date"]:focus,
 select:focus,
 button:focus {
   outline: none;
-  border-color: #04AA6D; /* Highlight border on focus */
+  border-color: #04AA6D;
 }
 
 button {
@@ -95,7 +95,7 @@ button {
 }
 
 button:hover {
-  background-color: #0b7a52; /* Darken button on hover */
+  background-color: #0b7a52;
 }
 
 /* Task List styles */
@@ -105,15 +105,15 @@ ul {
 }
 
 li {
-  margin-bottom: 15px; /* Increased margin between tasks */
+  margin-bottom: 15px; 
 }
 
 .completed {
   text-decoration: line-through;
-  color: #888; /* Dim completed tasks */
+  color: #888;
 }
 
-/* Responsive Styles */
+
 @media screen and (max-width: 768px) {
   .navbar {
     width: 0;
